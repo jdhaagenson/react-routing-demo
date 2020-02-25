@@ -27,6 +27,7 @@ class Clock extends Component {
   }
 
   render() {
+    console.log(this.props.match)
     return (
       <div className="Clock">
         <h2>It is {this.state.date.toLocaleTimeString()}.</h2>

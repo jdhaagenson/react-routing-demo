@@ -9,3 +9,9 @@ This starter provides a small react application with a basic routing implementat
     * If the `<Welcome/>` component is accessed through "/" route it should maintain its original behavior and display the value passed in with the "name" prop
 * Update the Router functionality to show a 404 component when there is no matching route for the URL specified
     * [Switch Reference](https://reacttraining.com/react-router/web/api/Switch)
+
+## Additional Resources
+- [React Router Dom Docs](https://reacttraining.com/react-router/web/guides/quick-start)  
+- [Davey Solutions](https://player.vimeo.com/video/335222555)  
+- [Nested Routing](https://tylermcginnis.com/react-router-nested-routes/)  
+- [Another Nested Routing Resource](https://itnext.io/react-router-how-to-add-child-routes-62e23d1a0c5e)

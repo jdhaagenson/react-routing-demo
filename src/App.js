@@ -12,7 +12,11 @@ function App() {
   return (
     <div className="App">
         <Navigation />
-        <Route exact path="/" render={(props)=><Welcome {...props} name="eric"/>} />
+        <Route 
+          exact 
+          path="/" 
+          render={(props)=><Welcome {...props} name="eric"/>} 
+        />
         <Route path="/clock" component={Clock} />
         <Route path="/contact" component={Contact} />
     </div>
